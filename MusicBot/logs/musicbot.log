@@ -1,0 +1,24 @@
+[317.021369934] 2018-06-17 00:00:19,615 - INFO - launcher: Starting sanity checks
+[320.021152496] 2018-06-17 00:00:19,618 - INFO - launcher: Checking for Python 3.5+
+[322.022438049] 2018-06-17 00:00:19,620 - INFO - launcher: Checking console encoding
+[324.023008347] 2018-06-17 00:00:19,622 - INFO - launcher: Setting console encoding to UTF-8
+[326.022863388] 2018-06-17 00:00:19,624 - INFO - launcher: Ensuring we're in the right environment
+[337.022781372] 2018-06-17 00:00:19,635 - INFO - launcher: Adding local bins/ folder to path
+[363.026380539] 2018-06-17 00:00:19,661 - INFO - launcher: Required checks passed.
+[367.024898529] 2018-06-17 00:00:19,665 - INFO - launcher: Optional checks passed.
+[369.024515152] 2018-06-17 00:00:19,667 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[4557.070732117] launcher-ERROR: Error starting bot
+Traceback (most recent call last):
+  File "run.py", line 347, in main
+    from musicbot import MusicBot
+  File "C:\Users\Sumne\Desktop\MusicBot\musicbot\__init__.py", line 74, in <module>
+    from .bot import MusicBot
+  File "C:\Users\Sumne\Desktop\MusicBot\musicbot\bot.py", line 17, in <module>
+    import colorlog
+ModuleNotFoundError: No module named 'colorlog'
+[4603.878974915] launcher-INFO: Attempting to install dependencies...
+[65823.465824127] launcher-INFO: Ok lets hope it worked
+[65839.097499847] launcher-INFO: All done.
